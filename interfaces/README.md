@@ -6,8 +6,12 @@
 
 3. We dont explicity use implements keyword for interface. its implicit to GO
 
-4. We can create our own implementation of inbuild method also. (like Write method of I/O library)
+4. We can create our own implementation of inbuild method also. (like Write method of I/O library). Any type can have method associated with it can be implemented using interface
 
-2. Interface composition (interface of interfce)
+5. Interface composition (interface of interfce)
+    1. Smaller interface with less number of methods are suitable for building scalable applications
+    2. for interface composition, we just have to mention interface name in another interface without datatype
 
-3. Empty interface
+
+6. Empty interface (marker interface)
+special kind of interface which we can use with reflect libary to achieve more functionality
